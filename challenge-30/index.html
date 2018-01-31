@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+      body { font-family: sans-serif }
+      label { display: block }
+      input { margin-bottom: 10px }
+      table, th, td {
+    border: 1px solid black;
+    }
+    img
+    {
+      max-width: 200px;
+      height: auto;
+      padding-right: 20px;
+    }
+    table{
+      border-collapse: collapse;
+      position: absolute;
+      right : 100px;
+      top : 100px;
+      width: 50%;
+    }
+    h1 {text-align: center}
+    form{padding-left: 20px;
+        clear: bottom;
+    }
+  </style>
+</head>
+<body>
+
+  <form  data-js="form">
+
+    <div>
+      <label>Marca/Modelo</label>
+      <input type="text" data-js="inputForm"/>
+    </div>
+
+    <div>
+      <label>Ano</label>
+      <input type="text" data-js="inputForm" />
+    </div>
+
+    <div>
+      <label>Placa</label>
+      <input type="text" data-js="inputForm" />
+    </div>
+
+    <div>
+      <label>Cor</label>
+      <input type="text" data-js="inputForm" />
+    </div>
+
+    <div>
+      <label>Imagem do carro</label>
+      <input type="url" data-js="inputForm" />
+    </div>
+
+    <button type="submit" data-js="buttonSubmit">Cadastrar</button>
+  </form>
+  <table border="1" data-js = "carTable">
+    <tr>
+      <th>Marca/Modelo</th>
+      <th>Ano</th>
+      <th>Placa</th>
+      <th>Cor</th>
+      <th>Imagem</th>
+    </tr>
+  </table>
+  <script src="dom.js"></script>
+  <script src="challenge-299.js"></script>
+
+</body>
+</html>

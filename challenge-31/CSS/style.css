@@ -1,0 +1,30 @@
+body { font-family: sans-serif }
+label { display: block }
+input { margin-bottom: 10px }
+table,td {
+border: 1px solid black;
+}
+th
+{
+    border: 5px solid salmon;
+}
+img
+{
+max-width: 200px;
+height: auto;
+padding-right: 20px;
+}
+table{
+border-collapse: collapse;
+}
+h1 {text-align: center}
+table,form
+{
+float:left;
+margin: 0;
+width: 50%;
+}
+td
+{
+    text-align: center;
+}

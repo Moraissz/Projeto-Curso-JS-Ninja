@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <form  data-js="form">
+
+    <div>
+      <label>Marca/Modelo</label>
+      <input type="text" data-js="inputForm"/>
+    </div>
+
+    <div>
+      <label>Ano</label>
+      <input type="text" data-js="inputForm" />
+    </div>
+
+    <div>
+      <label>Placa</label>
+      <input type="text" data-js="inputForm" />
+    </div>
+
+    <div>
+      <label>Cor</label>
+      <input type="text" data-js="inputForm" />
+    </div>
+
+    <div>
+      <label>Imagem do carro</label>
+      <input type="url" data-js="inputForm" />
+    </div>
+
+    <button type="submit" data-js="buttonSubmit">Cadastrar</button>
+  </form>
+  <table border="1" data-js = "carTable">
+    <tr>
+      <th>Marca/Modelo</th>
+      <th>Ano</th>
+      <th>Placa</th>
+      <th>Cor</th>
+      <th>Imagem</th>
+      <th>Remover</th>
+    </tr>
+  </table>
+  <script src="JS/dom.js"></script>
+  <script src="JS/challenge-31.js"></script>
+
+</body>
+</html>
